@@ -1,6 +1,6 @@
 # Lattice-Constrained Materials Generative Model (LCMGM)
 
-# A deep generative modeling architecture for designing lattice-constrained materials.
+A deep generative modeling architecture for designing lattice-constrained materials.
 
 Authors: *Ericsson Tetteh Chenebuah, Michel Nganbe and Alain Beaudelaire Tchagang.
 
