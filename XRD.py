@@ -23,7 +23,7 @@ import pandas as pd
 mp_data = pd.read_excel("mp_data.xlsx")
 xrd_data = []
 
-for i in range(6740):
+for i in range(mp_data.shape[0]):
 
   with MPRester(api_key='dHLnBAxZxH4WOWDgL') as mpr:
     struc = mpr.get_structure_by_material_id(mp_data.iloc[i,3])
