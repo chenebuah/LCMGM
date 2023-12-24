@@ -86,7 +86,7 @@ vae.compile(
             )
 
 # Train SS-VAE model
-svae_history = vae.fit(X_samples, {'clf': y_cs_, 'reg': y_Ef},  epochs=50)
+svae_history = vae.fit(X_samples, {'clf': y_cs_, 'reg': y_Ef},  epochs=500)
 
 
 # Encoded Latent Vectors
