@@ -13,6 +13,8 @@
 # De Graef, M., and McHenry, M.E. (2012). Structure of materials: An introduction to crystallography, diffraction and symmetry. Cambridge University Press.
 
 
+!pip install pymatgen==2023.7.17
+
 from pymatgen.ext.matproj import MPRester #(Legacy API)
 from pymatgen.analysis.diffraction.xrd import XRDCalculator
 from pymatgen.symmetry.analyzer import SpacegroupAnalyzer
@@ -25,7 +27,7 @@ xrd_data = []
 
 for i in range(mp_data.shape[0]):
 
-  with MPRester(api_key='dHLnBAxZxH4WOWDgL') as mpr:
+  with MPRester(api_key='input your API key') as mpr:
     struc = mpr.get_structure_by_material_id(mp_data.iloc[i,3])
 
   sga = SpacegroupAnalyzer(struc)
