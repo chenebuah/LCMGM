@@ -42,7 +42,7 @@ energy_history = energy_model.fit(X_train, y_train, epochs=350, verbose=0, valid
 energy_model.save('energy_model.h5')
 
 # Install Scikit Optimize Library for Executing Bayesian Optimization
-!pip install scikit-optimize
+# !pip install scikit-optimize
 
 # Import Bayesian Optimization Library
 from skopt.space import Real
