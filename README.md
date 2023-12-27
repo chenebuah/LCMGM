@@ -10,4 +10,4 @@ Digital Technologies Research Centre, National Research Council of Canada, 1200 
 
 *Corresponding author: echen013@uottawa.ca
 
-The new materials dataset can be downloaded in "CIFs.zip" folder. We intend to also make the materials available on Dryad Digital with a registered DOI prior to final publication.
+The new materials dataset can be downloaded in the "CIFs.zip" folder. We intend to also make the materials available on Dryad Digital with a registered DOI prior to final publication.
