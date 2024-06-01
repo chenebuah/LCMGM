@@ -1,4 +1,4 @@
-# CONTRIBUTORS: * Ericsson Chenebuah, Michel Nganbe and Alain Tchagang 
+## CONTRIBUTORS: * Ericsson Chenebuah, Michel Nganbe and Alain Tchagang 
 # Department of Mechanical Engineering, University of Ottawa, 75 Laurier Ave. East, Ottawa, ON, K1N 6N5 Canada
 # Digital Technologies Research Centre, National Research Council of Canada, 1200 Montréal Road, Ottawa, ON, K1A 0R6 Canada
 # * email: echen013@uottawa.ca 
